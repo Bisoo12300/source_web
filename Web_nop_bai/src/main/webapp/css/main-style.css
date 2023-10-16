@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    src: url(https://fonts.google.com/specimen/Roboto);
+	font-family: Roboto;
+}
+@font-face {
+    src: url(https://fonts.google.com/specimen/Montserrat?query=mo);
+	font-family: Montserrat, "Helvetica Neue", Arial, sans-serif;	
+}
+body{
+	font-family: 'Roboto', sans-serif;font-size: 16px;color: #200041;margin: 0
+}
+h1{
+	font-family: Montserrat, "Helvetica Neue", Arial, sans-serif; font-size: 40px; color: white
+}
+h2{
+	font-family: Montserrat, "Helvetica Neue", Arial, sans-serif; font-size: 40px; text-align: center; color: aliceblue; font-weight:normal; font-variant-caps:all-petite-caps
+}
+h5{
+	font-family: Montserrat, "Helvetica Neue", Arial, sans-serif; font-size: 30px; text-align: center; color: aliceblue; font-weight:lighter; font-variant-caps:all-petite-caps	
+}
+p{
+	font-family:Roboto;font-size: 18px; color: whitesmoke;margin: 0; line-height: 22px
+}
+header{
+	height: 70px;width: 100%;line-height: 50px;background:white ;z-index: 30;position: fixed;left: 0;top: 0;
+}
+.logo img{
+	margin: 7px 0px 0px 7px;
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex;
+}
+.menu ul li a{
+	padding: 5px 20px;color: black;text-transform: uppercase
+}
+.menu ul li a:hover{
+	background-color: black ;color: #FFFFFF;border-radius: 15px
+}
+#home{
+	min-height: 600px;width: 100%;background-color: #000000;
+}
+#thongtin{
+	min-height: 600px;width: 100%;background-image: url("../images/4.png"); background-blend-mode: overlay;
+	background-position: center; background-size:cover;
+}
+#thongtin .bg-dark{
+	width:100%; min-height: 300px; background-color: rgba(0,0,0,0.6); color: white;padding: 20px;text-align: center; border-radius: 15px;
+}
+
+#contact{
+	min-height: 600px;width: 100%;background-color:black
+}
+#contact p{
+	font-size: 15px;
+	color: #ababab;
+	line-height: 20px;
+}
+#contact .col-8 {
+	padding-left: 250px;
+}
+#contact h3 {
+	margin: 30px 0;
+	padding-bottom: 60px;
+	border-bottom: 2px solid white;
+/*	animation-name: vibrate-2;*/
+
+} 
+#contact img {
+	height: 40px; 
+	width: auto;
+	margin: 2px;
+}
+
+input[type=text], select, textarea 
+{
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    background-color: #16161a;
+    color: #f4f6f8;
+  }
+/*#1a2c74*/
+#sumitct {
+	width: 80px;
+	border-radius: 30px;
+	padding: 13px;
+	font-size: 15px;
+	text-align: center;
+	transition: all 0.6s;
+}
+.sumitct:hover {
+	background-color:white;
+	color: #979696;
+	
+}
+
+.containerct {
+  border-radius: 8px;
+  background-color:#C7CCFF;
+	opacity: 0.8;	
+  padding: 20px;
+	color:black;
+}
+
+#btn-back-to-top {
+width: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
